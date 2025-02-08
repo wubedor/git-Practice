@@ -1,0 +1,73 @@
+body{
+    background-color:rgb(150, 220, 216);
+    text-align-last: center;
+    padding: 40px;
+    color-scheme: ;
+
+}
+
+#container {
+    background-color: white;
+    border-radius: 20px;
+    text-align-last: left;
+    height: 20rem;
+    width: 30rem;
+    margin: 10px;
+    padding: 30px;
+    transition: opacity 0.55;
+    border: none;
+
+
+} 
+
+.copylink-botton {
+    background-color: black;
+    color: blue;
+}
+
+.title {
+    padding-block-start:00px;
+    text-align-last: left;
+    lt
+
+}
+
+.text {
+    background-color: rgb(113, 221, 216);
+    text-align-last: center;
+    padding: 0px;
+    border-radius: 10px;
+    height: 70px; 
+}
+
+.copy {
+    text-align-last: left;
+    padding: 1.0px;
+    margin: 20px;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+
+.http {
+    text-align-last: center;
+    padding: 0px;
+
+}
+
+.cut {
+    font-size: 10px;
+   letter-spacing: a;
+}
+
+.corner {
+    color: lightcoral;
+}
+
+.thick {
+    letter-spacing: 0.5px;
+    line-height-step: 10px;
+}
+
+.yes {
+
+}

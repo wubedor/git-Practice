@@ -1,0 +1,141 @@
+body{
+	background-color: lightcyan ;
+	padding-top: 70px;
+	
+
+
+}
+
+.container {
+	background-color: white ;
+	border-radius: 40px;
+	border: white;
+	margin: auto;
+	width: 940px;
+	height: 1050px;
+	font-size: 200%;
+	padding: 00px;
+	;
+}	
+
+.hot {
+	text-align-last: left;
+	margin: 00px;
+	padding-inline-start: 160px;
+	font-size: 30px;
+}
+
+.text {
+	font-size: 25px;
+	text-align-last: left ;
+	margin: 70px;
+	height: 0px;
+	width: 900px;
+	padding:0px;
+	
+}
+
+.title {
+	font-size: 30px;
+	text-align-last: ;
+	margin: ;
+	padding: 0px;
+	height: 0px;
+	padding: 0px ;
+	width: auto;
+	padding-inline-start: 40px;
+}
+
+.type {
+	font-size: 30px;
+	font: bolder;
+	text-align-last: left;
+	margin: ;
+	padding-inline-start: 40px;
+	
+
+}
+
+.top {
+	font-size: 12px;
+	text-align-last: left;
+	margin: 0px;
+    font-size: 25px;
+	padding-inline-start: 60px;
+
+}
+
+.down {
+	background-color: black;
+	color: white;
+	width: 700px;
+	height: 70px;
+	padding-top: 0.03px;
+	margin: auto;
+	
+}
+
+.start {
+	font-size: 30px;
+	text-align-last: center;
+	margin: auto;
+	height: px;
+	padding-top: 14px;
+	
+}
+
+.emma {
+
+	
+
+}
+
+.center {
+	text-align-last: center;
+	font-size: 30px;
+	padding: px;
+	margin: px;
+	padding-inline-start: 00px;
+	
+}
+
+.core {
+	border-radius: 10px;
+	text-align-last: left;
+	width: 700px;
+	background-color: rgb(228, 242, 242);
+	margin: auto;
+	height: 170px;
+	padding-top: 30px;
+	
+}
+
+.cook {
+	border-radius: 10px;
+	text-align-last: ;
+	width: 700px;
+    background-color: rgb(221, 241, 241);
+	margin: auto;
+	padding-inline-start: 0px;
+	height: 170px;
+	padding-top: 30px;
+
+}
+
+.good {
+	text-align-last:left;
+	padding-inline-start: 160px;
+	font-size: 30px
+	
+}
+
+.container2 {
+	align-self: ;
+	padding-top: 8px;
+	font-size: px;
+	height: px;
+	text-align-last: left;
+	margin: 0px ;
+	padding-inline-start: 110PX;
+	
+}

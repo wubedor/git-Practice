@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(224, 235, 236);
+}
+
+.Container {
+    background-color: rgb(24, 231, 221);
+}
+
+.rey {
+    background-color: rgb(29, 204, 204);
+    text-align-last: center;
+}
+
+.lay { 
+    background-color: rgb(3, 223, 223);
+    text-align-last: center;
+    height: 50px ;
+    padding: 30.5px;
+}
+
+.drive {
+    display: flex;
+    height: 40vh;
+    
+}
+
+.bad {
+    text-align-last: center;
+    background-color: rgb(249, 245, 15);
+    width: 200px;
+    padding: 80.9px;
+    height: 30px;
+    border-radius: 3.0px;
+    font-size: 20px;
+}
+
+.good {
+    text-align-last: center;
+    background-color: rgb(52, 249, 3);
+    width: 200px;
+    padding: 80.9px;
+    height: 30px;
+    border-radius: 3.0px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.cup {
+    background-color: rgb(253, 5, 5);
+    text-align-last: center;
+    width: 200px;
+    padding: 80.9px;
+    height: 30px;
+    border-radius: 3.0px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.God {
+    background-color: rgb(26, 168, 121);
+    text-align-last: center;
+    height: 18px;
+    padding: 12.5px;
+    font-size: 20px;
+}

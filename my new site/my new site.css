@@ -1,0 +1,48 @@
+body{
+
+}
+
+#container {
+    background-image:url('God.jpg');  
+    height: 300px;
+    text-align-last: center;
+    padding-top: 90px;
+    color: rgb(223, 232, 224);
+    font-size: 40px;
+    
+}
+
+.container1 {
+    
+   color: rgb(252, 252, 252);
+}
+
+.container2 {
+    color: rgb(250, 147, 3);
+}
+
+.container3 {
+    word-spacing: 25px;
+    font-size: 27px;
+    text-decoration: none;
+    text-decoration-line: none;
+    background-color: rgba(141, 213, 215, 0.226);
+    padding-top: 10px;
+    height: 100px;
+   
+    
+
+    
+}
+
+.container4 {
+    font-size: 20px; 
+    padding-inline-start: 0px;
+    
+    
+}
+
+.container5 {
+    n ;
+
+}

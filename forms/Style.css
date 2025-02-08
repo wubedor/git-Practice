@@ -1,0 +1,68 @@
+Body { 
+	
+}
+
+#container{
+	background-image:url('back.jpg');
+   border: solid;
+   border-radius: 20px;
+   width: 80%;
+   height: 100%;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-left: 100px;
+   color: moccasin;
+ 
+}
+
+
+
+
+input { 
+        color: black;
+	    border-radius: 10px;
+	    margin-right: 0px;
+	    border-style: none;
+	    border-style: none;
+}
+
+#title { 
+place-items: center;
+}
+
+h2{
+	color: black;
+	background-color: moccasin;
+	padding: 10px;
+	border-radius: 0px;
+	width: 450px;
+	text-align-last: center;
+}
+
+h3{
+	padding: 1px;
+	color: black;
+	border-radius: 0px;
+	background-color: moccasin;
+	width: 200px;
+	text-align-last: center;
+}
+
+#text {
+color: white;
+
+}
+style {
+	border: 20px;
+	border-color: white;
+	color: black;
+}
+
+#radio{
+	color: moccasin;
+}
+
+#text{
+	color: moccasin;
+}

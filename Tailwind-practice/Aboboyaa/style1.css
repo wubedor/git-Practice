@@ -1,0 +1,21 @@
+.Container {
+    max-width: 400px;
+}
+
+.calculator .btn {
+    @apply bg-blue-500 text-white rounded-lg p-3 flex items-center justify-center;
+    @apply text-xl font-bold;
+    @apply hover:bg-blue-400;
+    background-color: #bebebe;
+}
+
+.calculator .btn.operator {
+    @apply bg-orange-500;
+    @apply hover:bg-blue-400;
+    background-color: #f8800f;
+}
+
+.calculator .display {
+    @apply h-16 flex items-center justify-end;
+    background-color: #717077;
+}

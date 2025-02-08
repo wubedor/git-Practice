@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width" />
+    <link href="style1.css" rel="stylesheet" />
+    <Script src="https://cdn.tailwindcss.com" rel="stylesheet"></script>
+</head>
+<body class="bg-gray-100 min-h flex items-center justify-center m-10 ">
+  <div class="bg-black p-6 rounded-xl shadow-lg w-60">
+    <!--display-->
+    <div class="bg-gray-100 p-4 rounded-lg mb-4">
+       <input type="text" class="w-full text-right text-2x1 font-bold bg-transparent outline-none" readonly value="0">
+    </div>
+
+    <!-- Buttons -->
+     <div class="grid grid-cols-4 gap-2">
+    <!-- First row -->
+    <button class="bg-gray-500 hover:bg-gray-300 p-4 rounded-lg font-bold">C</button>
+    <button class="bg-gray-500 hover:bg-gray-300 p-4 rounded-lg font-bold">±</button>
+    <button class="bg-gray-500 hover:bg-gray-300 p-4 rounded-lg font-bold">%</button>
+    <button class="bg-orange-400 hover:bg-orange-500 text-white p-4 rounded-lg font-bold">÷</button>
+
+    <!-- Second row -->
+    <button  class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg font-bold">7</button>
+    <button  class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg font-bold">8</button>
+    <button  class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg font-bold">9</button>
+    <button  class="bg-orange-400 hover:bg-orange-500 text-white p-4 rounded-lg font-bold">×</button>
+
+    <!-- Third row -->
+     <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg font-bold">4</button>
+     <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg font-bold">5</button>
+     <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg font-bold">6</button>
+     <button class="bg-orange-400 hover:bg-orange-500 text-white p-4 rounded-lg font-bold">-</button>
+
+     <!-- Fourth row -->
+     <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg font-bold">1</button>
+     <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg font-bold">2</button>
+     <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg font-bold">3</button>
+     <button class="bg-orange-400 hover:bg-orange-500 text-white p-4 rounded-lg font-bold">+</button>
+
+     <!-- Fifth row -->
+     <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg font-bold ">0</button>
+     <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg font-bold">.</button>
+     <button class="bg-orange-400 hover:bg-orange-500 text-white p-4 rounded-lg font-bold w-[6rem]">=</button>
+    </div>
+    </div>      
+</body>
+</html>
