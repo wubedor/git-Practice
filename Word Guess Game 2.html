@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guess Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #game {
+            text-align: center;
+            margin-top: 50px;
+        }
+        #word {
+            font-size: 2em;
+            letter-spacing: 10px;
+        }
+        #message {
+            font-size: 1.2em;
+            color: red;
+        }
+        #score {
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="game">
+    <h1>Word Guess Game</h1>
+    <div id="word"></div>
+    <div id="message"></div>
+    <input type="text" id="letterInput" maxlength="1" autofocus />
+    <button onclick="guessLetter()">Guess Letter</button>
+    <div id="score">Attempts left: <span id="attempts">5</span></div>
+</div>
+
+<script>
+// List of words to choose from
+const words = ["javascript", "python", "html", "css", "react", "node", "angular"];
+
+// Select a random word from the list
+let selectedWord = words[Math.floor(Math.random() * words.length)];
+let guessedLetters = [];
+let attempts = 5;
+
+// Update the word display
+function updateWordDisplay() {
+    let displayWord = "";
+    for (let letter of selectedWord) {
+        if (guessedLetters.includes(letter)) {
+            displayWord += letter + " ";
+        } else {
+            displayWord += "_ ";
+        }
+    }
+    document.getElementById("word").textContent = displayWord.trim();
+}
+
+// Handle the player's letter guess
+function guessLetter() {
+    const input = document.getElementById("letterInput").value.toLowerCase();
+    if (input.length !== 1 || !/[a-z]/.test(input)) {
+        alert("Please enter a valid letter.");
+        return;
+    }
+
+    // Check if the letter has already been guessed
+    if (guessedLetters.includes(input)) {
+        alert("You've already guessed that letter.");
+        return;
+    }
+
+    // Add the guessed letter to the guessed letters list
+    guessedLetters.push(input);
+
+    // Check if the letter is in the word
+    if (selectedWord.includes(input)) {
+        updateWordDisplay();
+    } else {
+        attempts--;
+        document.getElementById("attempts").textContent = attempts;
+        if (attempts <= 0) {
+            alert("Game Over! You lost! The word was: " + selectedWord);
+            resetGame();
+        }
+    }
+
+    // Check if the player has guessed all letters
+    if (!document.getElementById("word").textContent.includes("_")) {
+        alert("Congratulations! You've guessed the word: " + selectedWord);
+        resetGame();
+    }
+
+    // Clear the input field
+    document.getElementById("letterInput").value = "";
+    document.getElementById("letterInput").focus();
+}
+
+// Reset the game
+function resetGame() {
+    selectedWord = words[Math.floor(Math.random() * words.length)];
+    guessedLetters = [];
+    attempts = 5;
+    document.getElementById("attempts").textContent = attempts;
+    updateWordDisplay();
+}
+
+// Initial game setup
+updateWordDisplay();
+</script>
+
+</body>
+</html>
